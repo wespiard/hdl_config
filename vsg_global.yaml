@@ -1,0 +1,11 @@
+# file_list:
+#   - fsm.vhd
+rule:
+  global:
+    indentSize: 2
+  length_001 :
+     length : 80
+  process_016: # requires label at beginning of process
+    disable: true
+  process_018: # requires label at end of process
+    disable: true
